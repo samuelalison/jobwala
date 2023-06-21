@@ -1,0 +1,132 @@
+.dream{
+  
+}
+
+.dream-bg{
+background: url('../../assets/Rectangle\ 4335.png');
+width: 100%; 
+height: 100%; 
+position: relative;
+background-size: 100%;
+/* background-size: contain; */
+background-position: cover;
+background-size: cover;
+background-repeat: no-repeat;
+}
+  
+.dream-color{
+background: rgba(7, 7, 22, 0.9);
+position: relative; 
+background-size: 100%;
+height: 100%;
+/* padding: 5rem; */
+}
+
+.dream-container{
+padding: 5rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.dream-jobs{ 
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+color: #F5F5FA;
+}
+
+.dream-conventional{
+padding:0 25rem;
+}
+
+.conventional{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+
+color: #F5F5FA;
+}
+
+.dream-btns{
+display: flex;
+gap: 0.5rem;
+margin-top: 2.5rem;
+}
+
+
+
+.dream_acct_btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+
+text-align: center;
+
+color: #F5F5FA;
+background: rgba(7, 7, 22, 0.9);
+padding: 1rem 2rem;
+border: 1px solid #F5F5FA;
+border-radius: 8px;
+cursor: pointer;
+}
+
+
+
+
+.dream_post-job_btn{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+
+text-align: center;
+
+color: #070716;
+padding: 1rem 2rem;
+border: 1px solid #F5F5FA;
+border-radius: 8px;
+background: #FFC420;
+cursor: pointer;
+}
+
+
+@media screen and ( max-width: 1200px ) {
+.dream-conventional{
+padding:0 10rem;
+} 
+}
+
+@media screen and ( max-width: 600px){
+.dream-conventional{
+padding:0 0;
+}
+
+.dream-container{
+padding: 2rem;
+}
+
+.dream-jobs{ 
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #F5F5FA;
+  }
+
+  .conventional{
+font-size: 12px;
+}
+} 

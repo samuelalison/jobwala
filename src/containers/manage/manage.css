@@ -1,0 +1,164 @@
+.manage-container{
+padding: 88px 150px;
+}
+
+.manage_title{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 45px;
+/* identical to box height, or 100% */
+
+letter-spacing: -0.02em;
+
+color: #1B1F23;
+}
+
+.manage_title::after{
+content: "";
+position: absolute;
+width: 25rem;
+height: 3px;
+background: #FFC420; 
+margin-top: 1.5rem; 
+}
+
+
+.box-container{
+display: flex;
+/* justify-content: center; */
+}
+
+.manage_title{
+margin-bottom: 59px;
+}
+
+.manage_box_1{
+border: 1px solid ;
+margin-right: 1rem;
+border-radius: 10px;
+padding: 2rem;
+position: relative;
+}
+
+.manage_box_people{
+/* background: rgba(234, 76, 137, 0.05); */
+/* border: 2px solid #EA4C89; */
+position: relative;
+}
+
+.manage_box_people-finder{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+margin-bottom: 5px;
+
+color: #070716;
+    
+}
+
+.manage_box_people-finder_20m{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 156%;
+/* identical to box height, or 25px */
+
+
+color: #444D56;
+}
+
+.red{
+position: relative;
+right: 40px;
+bottom: 25px;
+}
+
+.manage_box_2{
+border: 1px solid ;
+margin-right: 1rem;
+border-radius: 10px;
+padding: 2rem;
+}
+
+.manage_box_call{
+
+}
+
+.manage_box_3{
+border: 1px solid;
+margin-right: 1rem;
+border-radius: 10px;
+padding: 2rem;
+}
+
+.manage_box_green{
+
+}
+
+.manage_box_4{
+border: 1px solid;
+border-radius: 10px;
+padding: 2rem;
+}
+
+.manage_box_call{
+
+}
+
+@media screen and (max-width: 1200px){
+
+
+    
+.manage-container{
+    padding: 88px 150px;
+}
+
+
+.box-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+} 
+
+.manage_box_1{
+margin-bottom: 1rem;
+}
+.manage_box_2{
+margin-bottom: 1rem;
+}
+
+.manage_title::after{
+content: "";
+width: 0;
+height: 0; 
+}
+
+.manage_box_4{
+margin-right: 1rem;  
+} 
+}
+
+@media screen and (max-width: 550px){
+.box-container{
+display: grid;
+grid-template-columns: 1fr;
+} 
+
+.manage-container{
+padding: 2rem;
+}
+
+.manage_box_1{
+margin-bottom: 1rem;
+}
+.manage_box_2{
+margin-bottom: 1rem;
+}
+.manage_box_3{
+margin-bottom: 1rem;
+}
+}

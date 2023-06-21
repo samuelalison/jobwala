@@ -1,0 +1,277 @@
+.hiring{
+padding: 88px 150px;
+background:  #FFFFFF;
+/* display: flex;
+justify-content: center;
+justify-items: center; */
+}
+
+.hiring-container{
+ position: relative;   
+}
+
+.hiring_product{
+display: flex;
+/* justify-content: center; */
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+margin-bottom: 2rem;
+
+color: #070716;
+padding-right: 34rem;
+}
+
+.hiring_product::after{
+    content: "";
+    position: absolute;
+    width: 12.3rem;
+    height: 3px;
+    background: #FFC420;  
+    top: 5.5rem;
+}
+
+.hiring_sides{
+background: rgba(7, 7, 22, 0.02); 
+display: flex;
+}
+
+.hiring_sides__col{
+display: flex;
+justify-content: center;
+padding: 37px 41px 27px 33px;
+}
+
+.hiring-left{
+display: flex;
+background: linear-gradient(121.82deg, rgba(35, 61, 123, 0.89) -29.16%, rgba(7, 7, 22, 0.89) 91.08%);
+align-items: center;
+border-radius: 0 300px 300px 0;
+/* margin-left: 33px; */
+
+}
+
+/* .hiring_listing{
+    
+} */
+
+.hiring_listing__pht{
+width: 100%;
+/* height: 295px; */
+
+/* margin-left: 35px; */
+margin-top: 98px;
+margin-bottom: 85px;
+}
+/* 
+.hiring_breakdown{
+
+} */
+
+.hiring_breakdown__pht{
+width: 100%;
+position: relative;
+right: 4rem;
+top: 1rem;
+}
+
+/* .hiring_right{
+
+} */
+
+.hiring_right_1{
+outline: 2px solid rgba(7, 7, 22, 0.02);
+border-radius: 10px;
+}
+
+.candidates{
+  padding: 25px 91px 20px 24px;  
+}
+
+.best_cand{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+margin-bottom: 20px;
+
+color: #070716;
+}
+
+.cand_cv{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* Drak/75 */
+
+color: #404040;   
+}
+
+.hiring_right_2{
+    outline: 2px solid rgba(7, 7, 22, 0.02);
+    border-radius: 10px;
+    background:  #FFFFFF;
+    margin-top: 25px;
+    position: relative;
+    left: 2rem;
+}
+
+.hiring_right_2{
+border-bottom: solid;
+border-width: 5px;
+border-color: #FFC420; 
+}
+
+.candidates_2{
+    padding: 25px 91px 20px 24px;  
+  }
+
+.best_cand_2{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+margin-bottom: 20px;
+
+
+color: #070716;
+}
+
+.cand_cv_2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* Drak/75 */
+
+color: #404040;   
+}
+
+.hiring_right_3{
+    outline: 2px solid rgba(7, 7, 22, 0.02);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.candidates_3{
+    padding: 25px 91px 20px 24px;  
+  }
+
+.best_cand_3{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+margin-bottom: 20px;
+
+
+color: #070716;
+}
+
+.cand_cv_3{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* Drak/75 */
+
+color: #404040;   
+}
+
+@media screen and (max-width: 1200px){
+.hiring_product::after{
+content: "";
+/* position: absolute; */
+width: 0;
+height: 0;
+
+/* top: 5.5rem; */
+}
+}
+
+@media screen and (max-width: 1050px){
+.hiring{
+padding: 0;    
+}
+    .hiring_product{
+        padding-right: 0;
+       margin-left: 1rem;
+       margin-right: 1rem;
+    }
+
+
+    .hiring_sides__col{
+        display: flex;
+        flex-direction: column;
+        }
+
+        .hiring_product::after{
+            content: "";
+            /* position: absolute; */
+            width: 0;
+            height: 0;
+            
+            /* top: 5.5rem; */
+        }
+}
+@media screen and (max-width: 850px){
+.hiring_right_1{
+margin-top: 2rem;
+}
+
+.hiring_right_2{
+position: relative;
+left: 0;
+}
+}
+@media screen and (max-width: 550px){
+
+/* .hiring{
+padding: 1rem 0;
+} */
+
+.hiring_sides__col{
+display: flex;
+flex-direction: column;
+}
+
+/* .hiring-container{
+display: flex;
+flex-direction: column;
+} */
+
+.hiring_right_1{
+margin-top: 2rem;
+}
+
+.hiring_right_2{
+position: relative;
+left: 0;
+}
+
+.hiring_breakdown__pht {
+   
+    right: 2rem;
+    
+}
+}
